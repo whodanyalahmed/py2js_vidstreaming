@@ -18,7 +18,7 @@ var http = require('http');
     var json_o = JSON.parse(body);
 
   
-    console.log("Client Ip is: " + json_o['ip']);
+    console.log("Server Ip is: " + json_o['ip']);
     // opn(fin_link);
   })
 
