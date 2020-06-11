@@ -23,10 +23,10 @@ var http = require('http');
   })
 
 
-  var os = require('os');
-  var networkInterfaces = os.networkInterfaces();
+  // var os = require('os');
+  // var networkInterfaces = os.networkInterfaces();
 
-  console.log("This is wifi ip: " + networkInterfaces['Wireless Network Connection'][1].address);
+  // console.log("This is wifi ip: " + networkInterfaces['Wireless Network Connection'][1].address);
   
   // console.log(time())
 
